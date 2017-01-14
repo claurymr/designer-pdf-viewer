@@ -21,7 +21,7 @@ int main()
     int height = 0;
     int maxHeight = 0;
     string word = "";
-    int wordCount = 0;
+    int charCount = 0;
     int result = 0;
 
     for(int i = 0; i < ENGLISH_LETTERS; i++){
@@ -38,10 +38,10 @@ int main()
         if(h > maxHeight)
             maxHeight = h;
 
-        wordCount++;
+        charCount++;
     }
 
-    result = wordCount * LETTER_WIDTH * maxHeight;
+    result = charCount * LETTER_WIDTH * maxHeight;
 
     cout << result;
 
