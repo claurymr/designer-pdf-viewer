@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1484372418 source:e:\cse practice\c++\hackerrank\designer pdf viewer\designer-pdf-viewer\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<iostream>
+	<algorithm>
+	<map>
+
